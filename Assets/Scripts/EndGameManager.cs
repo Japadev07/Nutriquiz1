@@ -13,7 +13,6 @@ public class EndGameManager : MonoBehaviour
     private int playerScore;
     private int masterScore;
 
-
     [SerializeField] private GameObject Win;
     [SerializeField] private GameObject lose;
     [SerializeField] private GameObject draw;
@@ -25,37 +24,40 @@ public class EndGameManager : MonoBehaviour
 
         PlayerScore.text = playerScore.ToString();
         MasterScore.text = masterScore.ToString();
-    }
 
-    private void Update()
-    {
-        if (playerScore > masterScore) 
+        if (playerScore > masterScore)
         {
             Win.SetActive(true);
-
+            lose.SetActive(false);
+            draw.SetActive(false);
         }
-        if (playerScore < masterScore)
+        else if (playerScore < masterScore)
         {
             lose.SetActive(true);
-
+            Win.SetActive(false);
+            draw.SetActive(false);
         }
-        if (playerScore == masterScore)
+        else
         {
             draw.SetActive(true);
+            Win.SetActive(false);
+            lose.SetActive(false);
         }
-
     }
 
-    public void WinGame()
+    public void NovoJogo()
     {
-        Win.SetActive(true);
+        PlayerPrefs.SetInt("PlayerScore", 0);
+        PlayerPrefs.SetInt("MasterScore", 0);
+        PlayerPrefs.Save();
+        SceneManager.LoadScene("NovoJogo");
     }
-    public void LoseGame()
+
+    public void Voltar()
     {
-        lose.SetActive(true);
-    }
-    public void DrawGame()
-    {
-        draw.SetActive(true);
+        PlayerPrefs.SetInt("PlayerScore", 0);
+        PlayerPrefs.SetInt("MasterScore", 0);
+        PlayerPrefs.Save();
+        SceneManager.LoadScene("Menu");
     }
 }

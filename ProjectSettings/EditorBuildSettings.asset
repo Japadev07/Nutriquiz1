@@ -6,14 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/PLAYGAME.unity
+    guid: 5d999958a9428c64f848b4507c75351b
+  - enabled: 1
+    path: "Assets/Scenes/Apresenta\xE7\xE3o.unity"
+    guid: b09b889ab1dac954bbd2e09577ea57fb
   - enabled: 1
     path: Assets/Scenes/NovoJogo.unity
-    guid: 62a591c5e35770d48880c27b45604259
+    guid: 0fbbc58253eaa50438b3454b598bd275
   - enabled: 1
     path: Assets/Scenes/EndGame.unity
     guid: 469b1885278f0c54d98d1cc8d87a8abd
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0

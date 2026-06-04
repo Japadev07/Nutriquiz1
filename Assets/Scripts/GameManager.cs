@@ -32,6 +32,8 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private Color green;
     [SerializeField] private Color red;
+    [SerializeField] private AudioSource somAcerto;
+    [SerializeField] private AudioSource somErro;
 
     [SerializeField] private TextMeshProUGUI PlayerScore;
     [SerializeField] private TextMeshProUGUI MasterScore;
@@ -64,8 +66,8 @@ public class GameManager : MonoBehaviour
             Debug.Log("Tempo Finalizado");
         }
 
-        // Finaliza após 10 perguntas
-        if (questionCount > 9)
+        // Finaliza após 50 perguntas
+        if (questionCount > 49)
         {
             SceneManager.LoadScene("EndGame");
             Stars();
@@ -115,6 +117,8 @@ public class GameManager : MonoBehaviour
         if (dataBank[indexQuestions].FuorAnswer[check] ==
             dataBank[indexQuestions].answerQuestion)
         {
+            somAcerto.Play();
+
             timer = 15;
 
             // Verde
@@ -129,8 +133,10 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            // Vermelho
+
+            somErro.Play();
             AnswerButtons[check].GetComponent<Image>().color = red;
+
 
             masterScore++;
             questionCount++;
@@ -163,12 +169,12 @@ public class GameManager : MonoBehaviour
     {
         if (playerScore > masterScore)
         {
-            starCount += 9;
+            starCount += 49;
 
         }
         else if (playerScore < masterScore)
         {
-            starCount -= 5;
+            starCount -= 25;
         }
         PlayerPrefs.SetInt("StarCount", starCount);
         PlayerPrefs.Save();

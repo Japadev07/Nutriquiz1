@@ -164,7 +164,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 51f6d9959fdefdb45bc92956457ef65f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.142
+  m_Volume: 0.023
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -329,6 +329,135 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 18374046}
   m_CullTransparentMesh: 1
+--- !u!1 &75526990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 75526991}
+  - component: {fileID: 75526992}
+  m_Layer: 0
+  m_Name: Musicaerro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &75526991
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75526990}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2101082440}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &75526992
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75526990}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 8017a36c331306c4eb8c71fd3761bfc8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &86026079
 GameObject:
   m_ObjectHideFlags: 0
@@ -502,8 +631,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 32, y: -327}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 3.29, y: -306.79}
+  m_SizeDelta: {x: 143.38, y: 30.22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &98457098
 MonoBehaviour:
@@ -557,18 +686,6 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1285008445}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -648,7 +765,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -423.00006, y: 16.000027}
+  m_AnchoredPosition: {x: -311.2, y: -13.7}
   m_SizeDelta: {x: 142.1, y: 140.59}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &216661364
@@ -725,8 +842,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 32, y: -773}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 3.29, y: -756.2}
+  m_SizeDelta: {x: 143.38, y: 30.22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &376779468
 MonoBehaviour:
@@ -780,18 +897,6 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 3
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1285008445}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1279,7 +1384,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -23.4, y: 39.7}
+  m_AnchoredPosition: {x: 10, y: 29.4}
   m_SizeDelta: {x: 75.01, y: 69.71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &861297142
@@ -1432,7 +1537,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -27.79, y: -40.1}
+  m_AnchoredPosition: {x: 5.6100025, y: -50.400047}
   m_SizeDelta: {x: 125.2, y: 35.64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &865199682
@@ -2270,7 +2375,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 423.0001, y: 11}
+  m_AnchoredPosition: {x: 359, y: -23}
   m_SizeDelta: {x: 142.1, y: 140.59}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1205541857
@@ -2311,135 +2416,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1205541855}
   m_CullTransparentMesh: 1
---- !u!1 &1285008443
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1285008444}
-  - component: {fileID: 1285008445}
-  m_Layer: 0
-  m_Name: ButtonClick
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1285008444
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1285008443}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.76, y: -3.15, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2101082440}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &1285008445
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1285008443}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 194b7ba12f594424fb1360db4330b5f0, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 2.7482638
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &1306175699
 GameObject:
   m_ObjectHideFlags: 0
@@ -2551,8 +2527,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 32, y: -563}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 3.29, y: -544.59}
+  m_SizeDelta: {x: 143.38, y: 30.22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1336666783
 MonoBehaviour:
@@ -2606,18 +2582,6 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1285008445}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2690,80 +2654,371 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   dataBank:
-  - answerQuestion: Para ter energia, brincar e aprender
+  - answerQuestion: Frutas variadas
     FuorAnswer:
-    - "S\xF3 pra crescer"
-    - Para ter energia, brincar e aprender
-    - 'Apenas quando estamos com muita fome '
-    - Pra nada
-    qustions: Por que nosso corpo precisa de comida?
-  - answerQuestion: "Fazer refei\xE7\xF5es com calma"
+    - Apenas biscoito
+    - "Apenas macarr\xE3o"
+    - Frutas variadas
+    - Apenas arroz
+    qustions: Qual alimento pode deixar o prato mais colorido?
+  - answerQuestion: "Br\xF3colis"
     FuorAnswer:
-    - "Jogar fora refei\xE7\xE3o "
-    - "Fazer refei\xE7\xF5es com calma"
-    - 'Comer escondido '
-    - "Pular Refei\xE7\xE3o"
-    qustions: "Qual dessas atitudes \xE9 mais saudavel?"
-  - answerQuestion: Um ambiente calmo e tranquilo
-    FuorAnswer:
-    - Comer correndo
-    - "Brigas e discuss\xF5es "
-    - Ficar distraido o tempo todo
-    - Um ambiente calmo e tranquilo
-    qustions: "0 que ajuda na hora da refei\xE7\xE3o?"
-  - answerQuestion: Leite
-    FuorAnswer:
-    - "Macarr\xE3o"
-    - Suco
     - "P\xE3o"
-    - Leite
-    qustions: "Qual Alimento \xE9 a principal fonte de c\xE1lcio, que fortalece os
-      ossos?"
-  - answerQuestion: "Arroz e feij\xE3o"
+    - Queijo
+    - "Br\xF3colis"
+    - Batata
+    qustions: "Qual destes alimentos parece uma pequena \xE1rvore?"
+  - answerQuestion: Banana madura
     FuorAnswer:
-    - "Arroz e feij\xE3o"
-    - Sal
-    - "\xD3leo"
-    - "A\xE7ucar"
-    qustions: Qual desse alimentos da mais energia para brincar?
-  - answerQuestion: Espinafre
+    - Cenoura crua
+    - Pipoca
+    - Castanha
+    - Banana madura
+    qustions: "Qual destes alimentos \xE9 macio para mastigar?"
+  - answerQuestion: Tangerina
     FuorAnswer:
-    - Abrobinha
-    - Espinafre
-    - Chuchu
-    - Pepino
-    qustions: "Qual vegetal \xE9 verde escuro  cheio de ferro, importante para o
-      sangue?"
-  - answerQuestion: 5 a 6 vezes
+    - Pera
+    - Tangerina
+    - Coco
+    - "M\xE7a"
+    qustions: Um explorador encontrou uma fruta cheia de gominhos. O que ele encontrou?
+  - answerQuestion: "Ma\xE7\xE3"
     FuorAnswer:
-    - ' 1 vez'
-    - 2 vezes
-    - 5 a 6 vezes
-    - 10 vezes
-    qustions: "Quantas vezes por dia uma crian\xE7a deve se alimentar?"
-  - answerQuestion: Manga
+    - "Ma\xE7\xE3"
+    - Mingau
+    - Iogurte
+    - Gelatina
+    qustions: "Qual destes alimentos pode fazer \"croc\" e tamb\xE9m ser doce?"
+  - answerQuestion: Kiwi
     FuorAnswer:
-    - Maracuja
-    - Manga
-    - Caju
+    - "Mel\xE3o "
+    - Morango
+    - Kiwi
     - Goiaba
-    qustions: "Qual fruta tropical \xE9 rica em vitamina A e tem cor amarelo-alaranjado
-      por dentro?"
+    qustions: "Qual destes alimentos \xE9 verde por fora e verde por dentro?"
+  - answerQuestion: "Br\xF3colis"
+    FuorAnswer:
+    - "Mam\xE3o"
+    - "Br\xF3colis"
+    - Melancia
+    - Morango
+    qustions: "Se voc\xEA fosse montar um prato colorido, qual alimento verde escolheria?"
   - answerQuestion: "\xC1gua"
     FuorAnswer:
-    - "Ch\xE1"
-    - Suco
-    - Leite
-    - "\xC1gua "
-    qustions: Qual alimento mais importante que devemos beber bastante todo dia?
+    - Cola
+    - Tinta
+    - Areia
+    - "\xC1gua"
+    qustions: "O super-her\xF3i da hidrata\xE7\xE3o bebe:"
+  - answerQuestion: Salada de frutas
+    FuorAnswer:
+    - Queijo
+    - "P\xE3o franc\xEAs"
+    - Salada de frutas
+    - Arroz branco
+    qustions: Qual destes alimentos pode ter muitas cores diferentes?
+  - answerQuestion: Observar e conhecer o alimento
+    FuorAnswer:
+    - Observar e conhecer o alimento
+    - Jogar Fora
+    - Esconder o prato
+    - 'Sair correndo '
+    qustions: "Um alimento novo apareceu no seu prato. O que voc\xEA pode fazer?"
+  - answerQuestion: Manga madura
+    FuorAnswer:
+    - Ovos cozidos
+    - Sal
+    - Arroz cru
+    - Manga madura
+    qustions: Qual destes alimentos costuma ter cheiro docinho?
+  - answerQuestion: Laranja
+    FuorAnswer:
+    - Queiho
+    - Laranja
+    - Arroz
+    - "Feij\xE3o"
+    qustions: Qual destes alimentos pode ser espremido para virar suco?
+  - answerQuestion: Uma aventura divertida
+    FuorAnswer:
+    - Castigo
+    - Um problema
+    - Uma aventura divertida
+    - Uma regra dificl
+    qustions: 'Conhecer novos sabores pode ser:'
   - answerQuestion: Morango
     FuorAnswer:
-    - Manga
+    - Uva
     - Pera
+    - Manga
+    - Morango
+    qustions: "O Detetive dos Alimentos encontrou uma fruta vermelha cheia de sementinhas
+      por fora. Qual \xE9?"
+  - answerQuestion: Pera
+    FuorAnswer:
+    - Pera
+    - Uva
+    - Manga
+    - Abacaxi
+    qustions: "O Detetive dos Sabores encontrou uma fruta verde por fora e branca
+      por dentro. Qual \xE9?"
+  - answerQuestion: Banana
+    FuorAnswer:
+    - Gelatina
+    - Iogurte
+    - Queijo
+    - Banana
+    qustions: Qual destes alimentos tem casca e pode ser descascado?
+  - answerQuestion: "P\xE3o"
+    FuorAnswer:
+    - "P\xE3o"
+    - Bala
+    - Chiclete
+    - Papel
+    qustions: "O rob\xF4 da alimenta\xE7\xE3o saud\xE1vel precisa de energia. Qual
+      alimento ele escolhe para o caf\xE9 da manh\xE3?"
+  - answerQuestion: Tomate
+    FuorAnswer:
+    - Pera
+    - Banana
+    - Coco
+    - Tomate
+    qustions: Um explorador encontrou um alimento vermelho e redondo usado em saladas.
+      O que ele encontrou?
+  - answerQuestion: Milho
+    FuorAnswer:
+    - Ervilha
+    - Arroz
+    - "Feij\xE3o"
+    - Milho
+    qustions: Qual destes alimentos pode ser amarelo e virar pipoca?
+  - answerQuestion: "Sentar-se \xE0 mesa"
+    FuorAnswer:
+    - "Sentar-se \xE0 mesa"
+    - Gritar com todos
+    - Correr pela casa
+    - Esconder o prato
+    qustions: "Qual destas atitudes ajuda a hora da refei\xE7\xE3o?"
+  - answerQuestion: Ajudar a organizar a mesa
+    FuorAnswer:
+    - Derrubar o copo
+    - "Fazer bagun\xE7a"
+    - Jogar os talheres
+    - Ajudar a organizar a mesa
+    qustions: "Quando a refei\xE7\xE3o termina, uma boa atitude \xE9?"
+  - answerQuestion: Cheirar o alimento primeiro
+    FuorAnswer:
+    - Cheirar o alimento primeiro
+    - "Escond\xEA-lo"
+    - Reclamar sem olhar
+    - Virar as costas
+    qustions: Qual destas atitudes ajuda a experimentar algo novo?
+  - answerQuestion: "Ouvir com Aten\xE7\xE3o"
+    FuorAnswer:
+    - "Ouvir com Aten\xE7\xE3o"
+    - Interromper toda hora
+    - Sair andando
+    - "N\xE3o d\xE1 aten\xE7\xE3o"
+    qustions: "Um amigo est\xE1 falando sobre seu alimento favorito. eu posso?"
+  - answerQuestion: Conhecer sobre alimentos
+    FuorAnswer:
+    - Reclamar de tudo
+    - Fugir da mesa
+    - Jogar comida fora
+    - Conhecer sobre alimentos
+    qustions: "Qual \xE9 a principal miss\xE3o do Explorador dos Sabores?"
+  - answerQuestion: Fazer melhores escolhas
+    FuorAnswer:
+    - Apenas brigar
+    - Apenas reclamar
+    - Fazer melhores escolhas
+    - Apenas gritar
+    qustions: Quando estou calmo, consigo?
+  - answerQuestion: Guardar os materiais usados
+    FuorAnswer:
+    - Guardar os materiais usados
+    - "Fazer bagun\xE7a"
+    - Derrubar objetos
+    - 'Esconder asn coisas '
+    qustions: Qual destas atitudes mostra responsabilidade?
+  - answerQuestion: "Que j\xE1 comi o suficiente"
+    FuorAnswer:
+    - Que preciso correr
+    - "Que devo comer muito r\xE1pido"
+    - "Que j\xE1 comi o suficiente"
+    - Que devo ignorar meu corpo
+    qustions: "Seu corpo est\xE1 dizendo que j\xE1 est\xE1 satisfeito. O que isso
+      significa?"
+  - answerQuestion: Observar a cor e o formato
+    FuorAnswer:
+    - Esconder o alimento
+    - Observar a cor e o formato
+    - Jogar fora
+    - Virar o prato
+    qustions: "Qual destes \xE9 um jeito de conhecer um alimento sem precisar comer?"
+  - answerQuestion: "\xC1gua"
+    FuorAnswer:
+    - "\xC1gua"
+    - Tik tok
+    - Sofa
+    - Tv
+    qustions: Quando estou com sede, meu corpo pode pedir?
+  - answerQuestion: Pedir Ajuda
+    FuorAnswer:
+    - Chorar
+    - 'Gritar '
+    - Bater na mesa
+    - Pedir Ajuda
+    qustions: "Se eu estiver inseguro durante a refei\xE7\xE3o, posso?"
+  - answerQuestion: "Vis\xE3o"
+    FuorAnswer:
+    - "Televis\xE3o"
+    - Controle remoto
+    - "Vis\xE3o"
+    - Computador
+    qustions: Qual destes sentidos ajuda a conhecer um alimento?
+  - answerQuestion: Macia
+    FuorAnswer:
+    - Macia
+    - "Invis\xEDvel"
+    - "El\xE9trica"
+    - Magica
+    qustions: Um alimento pode ter uma textura?
+  - answerQuestion: Vontade de comer
+    FuorAnswer:
+    - Vontade de comer
+    - Vontade de desaparecer
+    - Vontade de voar
+    - Vontade de cantar
+    qustions: Quando estou com fome, meu corpo pode sentir?
+  - answerQuestion: Macaxeira
+    FuorAnswer:
+    - "Lim\xE3o"
+    - Tomate
+    - Cebola
+    - Macaxeira
+    qustions: "Qual raiz tem a casca marrom escura e grossa, \xE9 branca por dentro
+      e precisa ser cozida por bastante tempo para ficar macia?"
+  - answerQuestion: Pepino
+    FuorAnswer:
+    - Couve
+    - Batata
+    - Pepino
+    - Cenoura
+    qustions: " Qual alimento comprido tem a casca verde escuro, \xE9 verde bem clarinho
+      por dentro e cortamos em rodelas para colocar na salada?"
+  - answerQuestion: Abacate
+    FuorAnswer:
+    - Berinjela
+    - Abacate
+    - "Ma\xE7a"
+    - Pera
+    qustions: "Qual fruta tem a casca verde, \xE9 macia e verde clara por dentro,
+      e tem um \xFAnico caro\xE7o bem grande e redondo no meio?"
+  - answerQuestion: Ervilha
+    FuorAnswer:
+    - Pimenta
+    - "Feij\xE3o"
+    - Milho
+    - Ervilha
+    qustions: Qual alimento verde tem o formato de pequenas bolinhas redondas e muitas
+      vezes vem guardado dentro de uma vagem (uma capinha verde)?
+  - answerQuestion: Melancia
+    FuorAnswer:
+    - Melancia
+    - Abacaxi
+    - "Mel\xE3o"
+    - Pera
+    qustions: "Qual fruta \xE9 verde e pesada por fora, mas tem muita \xE1gua, \xE9
+      vermelha e cheia de sementes pretas por dentro?"
+  - answerQuestion: Beterraba
+    FuorAnswer:
+    - 'Cenoura '
+    - Couve
+    - Beterraba
+    - Banana
+    qustions: "Qual raiz tem uma cor vermelha muito escura ou roxa, e quando \xE9
+      cozida na \xE1gua, deixa o prato inteiro manchado dessa cor?"
+  - answerQuestion: Peixe
+    FuorAnswer:
+    - Frango
+    - Porco
+    - Vaca
+    - Peixe
+    qustions: "Qual alimento vem dos rios ou do mar e n\xF3s precisamos ter cuidado
+      para tirar as espinhas antes de comer?"
+  - answerQuestion: Ovo
+    FuorAnswer:
+    - "Caf\xE9"
+    - Larnja
+    - "Ma\xE7a"
+    - Ovo
+    qustions: "Qual alimento natural tem uma casca fr\xE1gil por fora e n\xF3s precisamos
+      quebrar essa casca antes de cozinhar ou fritar?"
+  - answerQuestion: Alface
+    FuorAnswer:
+    - Alface
+    - Cenoura
+    - Repolho
+    - Pepino
+    qustions: "Qual alimento \xE9 formado por folhas verdes, n\xE3o precisa ser cozido
+      e n\xF3s comemos frio na salada?"
+  - answerQuestion: Abacaxi
+    FuorAnswer:
+    - Morango
+    - Banana
+    - Cenoura
+    - Abacaxi
+    qustions: "Qual destas frutas parece que est\xE1 usando uma coroa de rei ou rainha
+      na cabe\xE7a?"
+  - answerQuestion: Gostar imediatamente
+    FuorAnswer:
+    - Gostar imediatamente
+    - Comer todo
+    - Ficar irritado
+    - Chorar
+    qustions: "Quando provo algo novo, n\xE3o preciso?"
+  - answerQuestion: Quente ou frio
+    FuorAnswer:
+    - Apenas Redondo
+    - "Apenas invis\xEDvel"
+    - Apenas frio
+    - Quente ou frio
+    qustions: Um alimento pode ser consumido?
+  - answerQuestion: Descobrir novos cheiros
+    FuorAnswer:
+    - Esconder alimentos
+    - Reclamar de tudo
+    - Fugir da mesa
+    - Descobrir novos cheiros
+    qustions: Qual destes faz parte de uma aventura alimentar?
+  - answerQuestion: Cores diferentes
+    FuorAnswer:
+    - Cores diferentes
+    - Apenas uma cor
+    - Cor invisivel
+    - Cor de brinquedo
+    qustions: 'Um alimento pode ter:'
+  - answerQuestion: "Observ\xE1-lo com aten\xE7\xE3o"
+    FuorAnswer:
+    - "Julg\xE1-lo sem olhar"
+    - "Ignor\xE1-lo"
+    - "Observ\xE1-lo com aten\xE7\xE3o"
+    - "Escond\xEA-lo"
+    qustions: " Se um alimento parece diferente do que eu conhe\xE7o, posso?"
+  - answerQuestion: Sua cor
+    FuorAnswer:
+    - Prato
+    - Prato
+    - Sua cor
+    - Sabor
+    qustions: O que posso observar primeiro em um alimento?
+  - answerQuestion: Morango
+    FuorAnswer:
+    - uva
+    - Acerola
     - Morango
     - Abacaxi
-    qustions: "Qual fruta vermelha \xE9 cheia de vitamina c e ajuda a n\xE3o ficar
-      doente?"
+    qustions: "Qual destes alimentos \xE9 pequeno e roxo?"
   AnswerButtons:
   - {fileID: 1432335800}
   - {fileID: 98457098}
@@ -2774,6 +3029,8 @@ MonoBehaviour:
   timer: 15
   green: {r: 0, g: 1, b: 0, a: 1}
   red: {r: 0.90188676, g: 0.032331664, b: 0.032331664, a: 1}
+  somAcerto: {fileID: 1406769487}
+  somErro: {fileID: 75526992}
   PlayerScore: {fileID: 1171836269}
   MasterScore: {fileID: 647868373}
   QuestionCount: {fileID: 1418485290}
@@ -2792,6 +3049,135 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1406769485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1406769486}
+  - component: {fileID: 1406769487}
+  m_Layer: 0
+  m_Name: Musica acerto
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1406769486
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406769485}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2101082440}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1406769487
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406769485}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 194b7ba12f594424fb1360db4330b5f0, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1418485289
 GameObject:
   m_ObjectHideFlags: 0
@@ -2965,8 +3351,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 32, y: -104}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 3.29, y: -82.07}
+  m_SizeDelta: {x: 143.38, y: 30.22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1432335800
 MonoBehaviour:
@@ -3016,18 +3402,6 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: ClickButtons
         m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1285008445}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3112,8 +3486,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 828.71}
-  m_SizeDelta: {x: 1080, y: 262.58}
+  m_AnchoredPosition: {x: -14.03, y: 803.61}
+  m_SizeDelta: {x: 1139.54, y: 312.77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1464729565
 MonoBehaviour:
@@ -3504,7 +3878,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 10
+  m_text: 50
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3618,8 +3992,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00010316, y: 1.78}
-  m_SizeDelta: {x: 848.65, y: 414.59}
+  m_AnchoredPosition: {x: 0.56, y: -1.83}
+  m_SizeDelta: {x: 729.588, y: 292.33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1974069497
 MonoBehaviour:
@@ -3707,7 +4081,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: -9.25448}
+  m_margin: {x: 22.91867, y: 29.571457, z: 33.33673, w: 18.46883}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3843,7 +4217,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 17012945}
-  - {fileID: 1285008444}
+  - {fileID: 1406769486}
+  - {fileID: 75526991}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2136343824
